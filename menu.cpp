@@ -84,7 +84,7 @@ switch (opcion)
            e = leer();
            D= discriminante (q, w, e);
            printf ("\n el discriminante vale : ");
-           imprimir (z);
+           imprimir (D);
            if (D>0)
 
               {
